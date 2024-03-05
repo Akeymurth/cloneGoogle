@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.contenedor{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 14px;
+}
+
+.contentNav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contentNav a{
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.contentNav a:hover{
+    text-decoration: underline;
+} 
+
+.imgNav{
+    cursor: pointer;
+}
+
+.contenedorNavImg{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer; 
+}
+
+.contenedorNavImg:hover{
+    border-radius: 50%;
+    background-color: #E6E8EB;
+
+
+}
+
+.contentNav .divNavAcess{
+    margin-right: 20px;
+    margin-left: 20px;
+    background-color: #5C96EF;
+    border-radius: 5px;
+    width: 100px;
+    height: 33px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.contentCenter {
+    flex: 1; /* Hace que esta sección ocupe el espacio disponible */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra los elementos horizontalmente */
+    justify-content: center; /* Centra los elementos verticalmente */
+}
+
+.logoGoogle {
+    margin-bottom: 20px;
+}
+
+.buscador{
+    width: 33%;
+    height: 40px;
+    border-radius: 30px;
+    border: solid 1px #EFEFF0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.buscador:hover{
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.buscador img{
+    margin-right: 10px;
+}
+
+.logo1{
+    cursor: pointer;
+}
+
+.buscador input{
+    border: none;
+    outline: none;
+    height: 30px;
+    width: 80%;
+}
+
+.contenedorBotones{
+    display: flex;
+    align-items: center;
+}
+
+.button{
+    margin: 0 10px 0 10px;
+    width: 160px;
+    height: 35px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button:hover{
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); 
+}
+
+footer {
+    padding: 10px;
+    text-align: left;
+    margin-top: auto; /* Empuja el footer hacia abajo */
+    background-color: #EFEFF0;
+}
+
+.pais{
+    padding: 0 0 15px 15px;
+    font-size: 14px;
+}
+.divFooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #DFDFE7 ;
+}
+
+.divFooter div{
+    padding-left: 15px;
+    padding-bottom: 10px; 
+    padding-top: 10px;  
+}
+
+.divFooter div a{
+    text-decoration: none;
+    color: black;
+    margin-right: 25px;
+    font-size: 14px;
+}
+
+.divFooter div a:hover{
+    text-decoration: underline;
+}
