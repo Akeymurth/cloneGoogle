@@ -1,0 +1,28 @@
+header{
+    padding: 0;
+}
+
+.contentNav a{
+    margin: 0 5px 0 5px;
+}
+
+.contentNav .divNavAcess{
+    margin: 0 15px 0 0;
+}
+
+footer{
+    height: auto;
+}
+
+.divFooter div {
+    display: flex;
+    flex-direction: column;
+}
+
+.buscador .lupa{
+    padding-left: 8px;
+}
+
+.button{
+    width: 135px;
+}
